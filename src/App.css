@@ -1,38 +1,117 @@
-.App {
-  text-align: center;
+*{
+  overflow-x: hidden;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+  background: #1E0000;
 }
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:wght@300&display=swap');
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+  .nav {
+    height: fit-content;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 100vw;
+  color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    border: 0.25vw solid #381917;
+    padding-right: 4.5vw;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
   }
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  color: #FFFFFF;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-items li {
+  padding: 1.5vh;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+}
+.DASHBOARD{
+  background: #961E17;
+  border-radius: 10px;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+padding: 1vh;
+
+color: #FFFFFF;
+}
+.profile{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-start;
+    justify-content: center;
 }
-
-.App-link {
-  color: #61dafb;
+.profile h1, .profile h2{
+  font-size: 1vh;
 }
+.App h1{
+  color: #FFFFFF;
+}
+.welcome, .card-design, .gradient-box{
+  margin-left: 6vw;
+}
+.card-design{
+  box-sizing: border-box;
+  width: 20vw;
+text-align: center;
+background: radial-gradient(50% 66.29% at 50% 66.29%, #504040 0%, #3E2E2E 100%);
+border: 2px solid #513534;
+border-radius: 5px;
+}
+.card-design h1, .card-design h2{
+  color: #FFFFFF;
+  font-size: 2vh;
+}
+.PUBG{
+  
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 1vh;
+width: 10vw;
+text-align: center;
+margin-left: 4.5vw;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+background: #F9A9A8;
+border-radius: 3vw;
+margin-bottom: 3vh;
+}
+.gradient-box{
+  background: linear-gradient(90deg, #C25B0B 13.16%, #311B06 38.18%, #150C05 48.71%, #120705 58.07%, #AD1610 82.19%);
+border-radius: 0px 0px 5px 5px;
+width: 20vw;
+
+}
+.box-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 20vw;
+}
+.chat, .schedule{
+  display: flex;
+  flex-direction: row;
+  font-size: 1vw;
+  width: 20vw;
+  color: #FFFFFF;
+  font-weight: 100;
+}
+.cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
